@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(white, lightgreen);
+
+}
+
+
+h1 {
+    padding: 0 0 0 0;
+    font-size: 2rem;
+    font-family: "Outfit";
+    color: #378b29;
+    text-align: center;
+
+}
+
+
+h2 {
+    font-size: 1.3rem;
+    font-family: "Outfit";
+    color: #378b29;
+    text-align: left;
+
+}
+
+
+div.resume {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    height: auto;
+    margin: 0 auto 30px;
+}
+
+
+.resume-item {
+    border: none;
+    color: rgba(20, 17, 17, 0.806);
+    font-size: 1.1rem;
+    font-family: "Outfit";
+    text-align: center;
+}
+
+div.resume p {
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+div.resume a {
+    color: #000000;
+    text-decoration: none;
+    margin: 20px;
+}
+
+div.resume a:hover {
+    color: #378b29;
+}
+
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #378b29, rgba(0, 0, 0, 0));
+}
+
+.intro {
+    font-family: "Outfit";
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 1.1rem;
+    padding: 20px;
+}
+
+/* Collapsible panels */
+.collapsible {
+    cursor: pointer;
+    width: 70%;
+    border-radius: 10px;
+    margin: 50px;
+    background: transparent;
+    border: none;
+    box-shadow: 3px 3px 10px 0 #000000;
+    color: rgba(20, 17, 17, 0.806);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    font-family: "Outfit";
+    font-size: 1.2rem;
+
+}
+
+.active,
+.collapsible:hover {
+    background-color: #378b29;
+    color: #ffffff;
+}
+
+.content {
+    padding: 0 18px;
+    overflow: hidden;
+    font-size: 1.1rem;
+    font-family: "Outfit";
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    cursor: pointer;
+
+
+}
+
+.content a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: #378b29;
+}
+
+@media only screen and (max-width: 600px) {
+
+    div.resume {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+}

@@ -7,7 +7,6 @@ body {
 
 }
 
-
 h1 {
     padding: 0 0 0 0;
     font-size: 2rem;
@@ -17,7 +16,6 @@ h1 {
 
 }
 
-
 h2 {
     font-size: 1.3rem;
     font-family: "Outfit";
@@ -25,7 +23,6 @@ h2 {
     text-align: left;
 
 }
-
 
 div.resume {
     display: flex;
@@ -36,7 +33,6 @@ div.resume {
     height: auto;
     margin: 0 auto 30px;
 }
-
 
 .resume-item {
     border: none;
@@ -51,15 +47,22 @@ div.resume p {
     text-align: center;
 }
 
+
 div.resume a {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), #378b29, rgba(0, 0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: 100% 1.5px;
+    background-position: bottom;
     color: #000000;
     text-decoration: none;
-    margin: 20px;
+    margin-top: 15px;
 }
 
-a:hover {
-    color: #378b29;
+div.resume a:hover {
+    color: #378b29
 }
+
+
 
 
 hr.style-one {

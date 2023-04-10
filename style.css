@@ -57,7 +57,7 @@ div.resume a {
     margin: 20px;
 }
 
-div.resume a:hover {
+a:hover {
     color: #378b29;
 }
 
@@ -79,7 +79,6 @@ hr.style-one {
 
 /* Collapsible panels */
 .collapsible {
-    cursor: pointer;
     width: 70%;
     border-radius: 10px;
     margin: 50px;
@@ -114,7 +113,6 @@ hr.style-one {
     font-family: "Outfit";
     max-height: 0;
     transition: max-height 0.2s ease-out;
-    cursor: pointer;
 
 
 }

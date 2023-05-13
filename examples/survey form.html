@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="surveystyles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title" class="text-center">Survey form</h1>
+        </header>
+        <p id="description">Thank you for telling us what you think to help us improve our services.</p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name-label">Name: <input id="name" name="first-name" type="text"
+                        placeholder="Enter your name" required /></label>
+
+                <label id="email-label" for="email">Enter Your Email: <input id="email" name="email" type="email"
+                        placeholder="Enter your email address" required /></label>
+                <label id="number-label">Age: <input id="number" name="number" type="number" min="4" max="8"
+                        placeholder="Enter your age" required /></label>
+            </fieldset>
+            <fieldset>
+                <label for="service-rating">What do you think of our services?
+                    <select id="dropdown" name="service-rating">
+                        <option value="">(select one)</option>
+                        <option value="1">Poor</option>
+                        <option value="2">Average</option>
+                        <option value="3">Good</option>
+                        <option value="4">Very good</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <p class="pclass"> Would you like to sign up for an account?</p>
+
+                <label for="signup-yes"><input type="radio" name="account-type" class="inline" id="signup-yes"
+                        value="yes" /> Yes</label>
+
+                <label for="signup-no"><input type="radio" name="account-type" class="inline" id="signup-no"
+                        value="no" /> No</label>
+
+                <p class="pclass">Select your communication preferences</p>
+
+                <label for="email"><input class="inline" id="email" type="checkbox" name="communication"
+                        value="email" />Email</label>
+
+                <label for="telephone"><input class="inline" id="telephone" type="checkbox" name="communication"
+                        value="telephone" />Telephone</label>
+
+                <label for="text"><input class="inline" id="text" type="checkbox" name="communication"
+                        value="text" />Text</label>
+
+                <label for="comments">Any other comments<textarea class="textareaclass" id="other" name="other" rows="4"
+                        cols="50">
+Add your comments here
+</textarea></label>
+                <p class="pclass"><input type="submit" id="submit"></p>
+        </form>
+    </div>
+</body>
+
+</html>

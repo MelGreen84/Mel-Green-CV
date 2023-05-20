@@ -212,7 +212,7 @@ body {
     left: 5%;
     transform-origin: top left;
     transform: rotate(130deg) scaleX(-1);
-    animation: 3s linear infinite wave;
+    animation: 3s linear infinite waving;
 }
 
 .arm.right {
@@ -221,7 +221,7 @@ body {
     transform: rotate(-45deg);
 }
 
-@keyframes wave {
+@keyframes waving {
     10% {
         transform: rotate(110deg) scaleX(-1);
     }
@@ -238,7 +238,6 @@ body {
         transform: rotate(130deg) scaleX(-1);
     }
 }
-
 
 .foot {
     width: 15%;

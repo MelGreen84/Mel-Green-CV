@@ -50,7 +50,7 @@ hr.style-one {
 .intro {
     max-width: 1100px; /* widened */
     margin: 0 auto 30px auto;
-    text-align: left;
+    text-align: center;
     font-size: 1rem; /* softened */
 }
 

@@ -43,14 +43,14 @@ h1 {
 hr.style-one {
     border: 0;
     border-top: 2px solid #3E5C4A; /* Deep Evergreen */
-    width: 60%;
+    width: 65%;
     margin: 20px auto;
 }
 
 .intro {
-    max-width: 900px; /* widened */
+    max-width: 1100px; /* widened */
     margin: 0 auto 30px auto;
-    text-align: center;
+    text-align: left;
     font-size: 0.9rem; /* softened */
 }
 

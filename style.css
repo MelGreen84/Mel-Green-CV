@@ -129,9 +129,21 @@ a:hover {
     font-size: 0.9rem;
     color: #555;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .resume {
-    gap: 10px;
-    margin-bottom: 10px;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+
+  .resume-item {
+    margin: 0; /* removes big paragraph spacing */
+  }
+
+  .resume-item a {
+    padding: 6px 10px;
+    display: inline-block;
+    font-size: 0.9rem;
   }
 }
+
+

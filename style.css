@@ -95,6 +95,10 @@ hr.style-one {
     border-left: 3px solid #3E5C4A; /* Deep Evergreen */
     border-radius: 0 0 6px 6px;
 }
+/* NEW: when the button has .active, expand the content */
+.collapsible.active + .content {
+    max-height: 2000px; /* large enough to fit your content */
+}
 
 .content h2 {
     font-size: 1.2rem; /* softened */
